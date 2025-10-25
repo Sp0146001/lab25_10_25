@@ -2,7 +2,8 @@
 
 
 int main(){
-	size_t a = 0;
-	std::cout << a << "\n";
+	using u_t = unsigned;
+	u_t a = 0;
+	std::cin >> a;
 	return 0;
 }
