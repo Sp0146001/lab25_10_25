@@ -1,5 +1,7 @@
 #include <iostream>
-
+bool verify_overflowing(unsigned a, unsigned b, unsigned c){
+	
+}
 bool isPyth(unsigned a, unsigned b, unsigned c){
 	bool p = a*a ==(b*b + c*c);
 	p = p || (b*b == c*c + a*a);
